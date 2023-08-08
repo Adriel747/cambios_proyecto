@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabla de Datos</title>
+</head>
+<body>
+    <h1 style="text-align: center;">TABLA DE REGISTROS</h1>
+    
+    <form id="addForm" style="text-align:center ">
+        <div>
+            <label for="addName">Nombre</label>
+            <input type="text" id="addName">
+        </div>
+        <div>
+            <label for="addLastName">apellido_Paterno</label>
+            <input type="text" id="addLastNameP">            
+        </div>
+        <div>
+            <label for="addLastName">apellido_Materno</label>
+            <input type="text"id="addLastNameM">
+        </div>   
+        <button id="btnAdd">ingresar</button>   
+    </form>
+<!---->
+    <br>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>apellido_Paterno</th>
+                <th>apellido_Materno</th>
+                <th>opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+

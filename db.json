@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "name": "ad",
+      "lastNameP": "as",
+      "lastNameM": "ad",
+      "id": 2
+    },
+    {
+      "name": "as",
+      "lastNameP": "as",
+      "lastNameM": "as",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
