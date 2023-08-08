@@ -1,7 +1,7 @@
 
 body
 {
-    background-color: rgb(11, 103, 117);
+    background-image: url('./fondo.jpg');
 }
 #addForm {
     text-align: center;
